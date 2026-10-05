@@ -452,7 +452,7 @@ def save_rejected(
         len(invalid),
     )
 
-
+# Data quality checks
 def load_batch(
     connection: psycopg.Connection,
     batch: pl.DataFrame,
