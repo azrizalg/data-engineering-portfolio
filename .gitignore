@@ -7,13 +7,19 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
 
 # environments
 .env
+.env.*
 
+#logs
 *.log
 
 
 # data generated folder
 data/rejected/
+data/customers_1m.csv
+
+# Backup files
+*.save
