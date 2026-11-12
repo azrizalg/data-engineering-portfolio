@@ -1,0 +1,2372 @@
+[
+  {
+    "title": "actual_flight_date",
+    "name": "actual_flight_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "actual_weight",
+    "name": "actual_weight",
+    "type": "varchar"
+  },
+  {
+    "title": "adjusted_amount",
+    "name": "adjusted_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "adjusted_amount_number",
+    "name": "adjusted_amount_number",
+    "type": "big_integer"
+  },
+  {
+    "title": "adjusted_insurance_admin",
+    "name": "adjusted_insurance_admin",
+    "type": "varchar"
+  },
+  {
+    "title": "adjusted_insurance_admin_number",
+    "name": "adjusted_insurance_admin_number",
+    "type": "big_integer"
+  },
+  {
+    "title": "adjusted_insurance_premi",
+    "name": "adjusted_insurance_premi",
+    "type": "varchar"
+  },
+  {
+    "title": "adjusted_insurance_premi_number",
+    "name": "adjusted_insurance_premi_number",
+    "type": "big_integer"
+  },
+  {
+    "title": "approval_bag_date_time",
+    "name": "approval_bag_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "approval_connote_data_entry_date_time",
+    "name": "approval_connote_data_entry_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "approved_handover_runsheet_date_time",
+    "name": "approved_handover_runsheet_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "approved_outbound_manifested_date",
+    "name": "approved_outbound_manifested_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "approved_runsheet_date_time",
+    "name": "approved_runsheet_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "approved_transit_date_time",
+    "name": "approved_transit_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "awb_date",
+    "name": "awb_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "awb_number",
+    "name": "awb_number",
+    "type": "varchar"
+  },
+  {
+    "title": "awb_return_number",
+    "name": "awb_return_number",
+    "type": "varchar"
+  },
+  {
+    "title": "bagging_pic_name",
+    "name": "bagging_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "batch_import",
+    "name": "batch_import",
+    "type": "integer"
+  },
+  {
+    "title": "branch_id",
+    "name": "branch_id",
+    "type": "varchar"
+  },
+  {
+    "title": "branch_name",
+    "name": "branch_name",
+    "type": "varchar"
+  },
+  {
+    "title": "branch_type",
+    "name": "branch_type",
+    "type": "varchar"
+  },
+  {
+    "title": "ccrf_last_update_date_and_time_the_core",
+    "name": "ccrf_last_update_date_and_time_the_core",
+    "type": "timestamp"
+  },
+  {
+    "title": "check_box_billed_by_branch",
+    "name": "check_box_billed_by_branch",
+    "type": "varchar"
+  },
+  {
+    "title": "check_box_billed_by_site",
+    "name": "check_box_billed_by_site",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_amount",
+    "name": "cod_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_amount_paid_to_customer",
+    "name": "cod_amount_paid_to_customer",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_amt_ccnc",
+    "name": "cod_amt_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "cod_amt_ccnc_decimal",
+    "name": "cod_amt_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "cod_category_ccnc",
+    "name": "cod_category_ccnc",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_fee_amount",
+    "name": "cod_fee_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_fee_incl_vat2_ccnc",
+    "name": "cod_fee_incl_vat2_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "cod_fee_incl_vat2_ccnc_decimal",
+    "name": "cod_fee_incl_vat2_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "cod_fee_inv",
+    "name": "cod_fee_inv",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_fee_zone",
+    "name": "cod_fee_zone",
+    "type": "varchar"
+  },
+  {
+    "title": "cod_flag",
+    "name": "cod_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "collector_id",
+    "name": "collector_id",
+    "type": "varchar"
+  },
+  {
+    "title": "collector_name",
+    "name": "collector_name",
+    "type": "varchar"
+  },
+  {
+    "title": "commission_type_na_cashless",
+    "name": "commission_type_na_cashless",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_batching_status",
+    "name": "connote_batching_status",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_cancel",
+    "name": "connote_cancel",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_cancel_reason",
+    "name": "connote_cancel_reason",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_created_date_time",
+    "name": "connote_created_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "connote_hold",
+    "name": "connote_hold",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_hold_reason",
+    "name": "connote_hold_reason",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_must_be_attached_flag",
+    "name": "connote_must_be_attached_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_outbound_manifested_by",
+    "name": "connote_outbound_manifested_by",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_outbound_manifested_date",
+    "name": "connote_outbound_manifested_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "connote_pod_by",
+    "name": "connote_pod_by",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_pod_date_time",
+    "name": "connote_pod_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "connote_ready_to_be_invoiced_last_modified_by",
+    "name": "connote_ready_to_be_invoiced_last_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_ready_to_be_invoiced_last_modified_date_time",
+    "name": "connote_ready_to_be_invoiced_last_modified_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "connote_received_sorted_last_modified_by",
+    "name": "connote_received_sorted_last_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "connote_received_sorted_last_modified_date_time",
+    "name": "connote_received_sorted_last_modified_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "connote_remark",
+    "name": "connote_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_address_city",
+    "name": "consignee_address_city",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_address_district",
+    "name": "consignee_address_district",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_address_province",
+    "name": "consignee_address_province",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_address_street",
+    "name": "consignee_address_street",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_address_zip_code",
+    "name": "consignee_address_zip_code",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_name",
+    "name": "consignee_name",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_pic_name",
+    "name": "consignee_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "consignee_pic_phone",
+    "name": "consignee_pic_phone",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_city",
+    "name": "contact_information_address_city",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_kecamatan",
+    "name": "contact_information_address_kecamatan",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_kelurahan",
+    "name": "contact_information_address_kelurahan",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_latitude",
+    "name": "contact_information_address_latitude",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_longitude",
+    "name": "contact_information_address_longitude",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_street",
+    "name": "contact_information_address_street",
+    "type": "varchar"
+  },
+  {
+    "title": "contact_information_address_zip_code",
+    "name": "contact_information_address_zip_code",
+    "type": "varchar"
+  },
+  {
+    "title": "contract_number",
+    "name": "contract_number",
+    "type": "varchar"
+  },
+  {
+    "title": "contract_validity_period_from_date",
+    "name": "contract_validity_period_from_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "contract_validity_period_to_date",
+    "name": "contract_validity_period_to_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "created_invoice_date_time",
+    "name": "created_invoice_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "creation_date_and_time",
+    "name": "creation_date_and_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "currency",
+    "name": "currency",
+    "type": "varchar"
+  },
+  {
+    "title": "customer_id",
+    "name": "customer_id",
+    "type": "varchar"
+  },
+  {
+    "title": "customer_name",
+    "name": "customer_name",
+    "type": "varchar"
+  },
+  {
+    "title": "customer_status",
+    "name": "customer_status",
+    "type": "varchar"
+  },
+  {
+    "title": "customer_type",
+    "name": "customer_type",
+    "type": "varchar"
+  },
+  {
+    "title": "customer_type_name",
+    "name": "customer_type_name",
+    "type": "varchar"
+  },
+  {
+    "title": "date_time_discount_calculation",
+    "name": "date_time_discount_calculation",
+    "type": "timestamp"
+  },
+  {
+    "title": "date_time_insurance_calculation",
+    "name": "date_time_insurance_calculation",
+    "type": "timestamp"
+  },
+  {
+    "title": "date_time_mfee_na_calculation",
+    "name": "date_time_mfee_na_calculation",
+    "type": "timestamp"
+  },
+  {
+    "title": "deduction_ccnc",
+    "name": "deduction_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "deduction_ccnc_decimal",
+    "name": "deduction_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "delivered_to_city_date_time",
+    "name": "delivered_to_city_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "delivered_to_customer_date",
+    "name": "delivered_to_customer_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "delivered_to_warehouse_date_time",
+    "name": "delivered_to_warehouse_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "delivery_address_city",
+    "name": "delivery_address_city",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_address_district",
+    "name": "delivery_address_district",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_address_province",
+    "name": "delivery_address_province",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_address_street",
+    "name": "delivery_address_street",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_address_zip_code",
+    "name": "delivery_address_zip_code",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_order_flag",
+    "name": "delivery_order_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_order_no",
+    "name": "delivery_order_no",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_pic_name",
+    "name": "delivery_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "delivery_pic_phone",
+    "name": "delivery_pic_phone",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_branch_id",
+    "name": "destination_branch_id",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_city_name",
+    "name": "destination_city_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_city_name_bms",
+    "name": "destination_city_name_bms",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_district_name",
+    "name": "destination_district_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_entity_type",
+    "name": "destination_entity_type",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_id",
+    "name": "destination_id",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_managing_entity_id",
+    "name": "destination_managing_entity_id",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_managing_entity_name",
+    "name": "destination_managing_entity_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_managing_entity_parent_id",
+    "name": "destination_managing_entity_parent_id",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_managing_entity_parent_name",
+    "name": "destination_managing_entity_parent_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_name",
+    "name": "destination_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_province_name",
+    "name": "destination_province_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_rate_card_id",
+    "name": "destination_rate_card_id",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_rate_card_id_name",
+    "name": "destination_rate_card_id_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_sys_code",
+    "name": "destination_sys_code",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_urban_village_name",
+    "name": "destination_urban_village_name",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_zip_code_bms",
+    "name": "destination_zip_code_bms",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_zip_code_orion",
+    "name": "destination_zip_code_orion",
+    "type": "varchar"
+  },
+  {
+    "title": "destination_zone",
+    "name": "destination_zone",
+    "type": "varchar"
+  },
+  {
+    "title": "detail_bag_no_dmbag",
+    "name": "detail_bag_no_dmbag",
+    "type": "varchar"
+  },
+  {
+    "title": "difference_cod_amount_paid_to_customer",
+    "name": "difference_cod_amount_paid_to_customer",
+    "type": "varchar"
+  },
+  {
+    "title": "discount_amount_awb",
+    "name": "discount_amount_awb",
+    "type": "varchar"
+  },
+  {
+    "title": "discount_amount_awb_number",
+    "name": "discount_amount_awb_number",
+    "type": "big_integer"
+  },
+  {
+    "title": "discount_amount_ccnc",
+    "name": "discount_amount_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "discount_amount_ccnc_decimal",
+    "name": "discount_amount_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "discount_amount_inv",
+    "name": "discount_amount_inv",
+    "type": "varchar"
+  },
+  {
+    "title": "econnote_flag",
+    "name": "econnote_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "fee_rate_na_cashless",
+    "name": "fee_rate_na_cashless",
+    "type": "float"
+  },
+  {
+    "title": "final_connote_pod_created_by",
+    "name": "final_connote_pod_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "final_connote_pod_status_date_time",
+    "name": "final_connote_pod_status_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "final_delivery_courier_id",
+    "name": "final_delivery_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "final_delivery_courier_name",
+    "name": "final_delivery_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "final_delivery_vehicle",
+    "name": "final_delivery_vehicle",
+    "type": "varchar"
+  },
+  {
+    "title": "final_pod_remark",
+    "name": "final_pod_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "final_pod_status_code",
+    "name": "final_pod_status_code",
+    "type": "varchar"
+  },
+  {
+    "title": "final_pod_status_name",
+    "name": "final_pod_status_name",
+    "type": "varchar"
+  },
+  {
+    "title": "final_pod_success_status",
+    "name": "final_pod_success_status",
+    "type": "varchar"
+  },
+  {
+    "title": "flag_clickhouse",
+    "name": "flag_clickhouse",
+    "type": "varchar"
+  },
+  {
+    "title": "flag_pricing",
+    "name": "flag_pricing",
+    "type": "varchar"
+  },
+  {
+    "title": "flagging_cod_fee_calculation",
+    "name": "flagging_cod_fee_calculation",
+    "type": "varchar"
+  },
+  {
+    "title": "flagging_discount_calculation",
+    "name": "flagging_discount_calculation",
+    "type": "varchar"
+  },
+  {
+    "title": "flagging_insurance_calculation",
+    "name": "flagging_insurance_calculation",
+    "type": "varchar"
+  },
+  {
+    "title": "flagging_mfee_na_calculation",
+    "name": "flagging_mfee_na_calculation",
+    "type": "varchar"
+  },
+  {
+    "title": "flagging_multi_or_local_branch",
+    "name": "flagging_multi_or_local_branch",
+    "type": "varchar"
+  },
+  {
+    "title": "flight_name",
+    "name": "flight_name",
+    "type": "varchar"
+  },
+  {
+    "title": "flight_no",
+    "name": "flight_no",
+    "type": "varchar"
+  },
+  {
+    "title": "generate_mass_standard_invoice",
+    "name": "generate_mass_standard_invoice",
+    "type": "varchar"
+  },
+  {
+    "title": "goods_description",
+    "name": "goods_description",
+    "type": "varchar"
+  },
+  {
+    "title": "goods_type",
+    "name": "goods_type",
+    "type": "varchar"
+  },
+  {
+    "title": "goods_value",
+    "name": "goods_value",
+    "type": "varchar"
+  },
+  {
+    "title": "handling_connote_type",
+    "name": "handling_connote_type",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_inbound_approval_date_time",
+    "name": "handover_inbound_approval_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_inbound_cancelled_date_time",
+    "name": "handover_inbound_cancelled_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_inbound_date_time",
+    "name": "handover_inbound_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_inbound_number",
+    "name": "handover_inbound_number",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_inbound_pic_name",
+    "name": "handover_inbound_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_inbound_remark",
+    "name": "handover_inbound_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_outbound_approval_date_time",
+    "name": "handover_outbound_approval_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_outbound_date_time",
+    "name": "handover_outbound_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_outbound_number",
+    "name": "handover_outbound_number",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_outbound_pic_name",
+    "name": "handover_outbound_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_outbound_remark",
+    "name": "handover_outbound_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_runsheet_date_time",
+    "name": "handover_runsheet_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "handover_runsheet_number",
+    "name": "handover_runsheet_number",
+    "type": "varchar"
+  },
+  {
+    "title": "handover_runsheet_status",
+    "name": "handover_runsheet_status",
+    "type": "varchar"
+  },
+  {
+    "title": "height",
+    "name": "height",
+    "type": "varchar"
+  },
+  {
+    "title": "ho_no",
+    "name": "ho_no",
+    "type": "varchar"
+  },
+  {
+    "title": "id_connote_data",
+    "name": "id_connote_data",
+    "type": "varchar"
+  },
+  {
+    "title": "import_tax_slip_date",
+    "name": "import_tax_slip_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "inbound_manifest_cancelled_reason",
+    "name": "inbound_manifest_cancelled_reason",
+    "type": "varchar"
+  },
+  {
+    "title": "inbound_manifest_date_time",
+    "name": "inbound_manifest_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "inbound_manifest_number",
+    "name": "inbound_manifest_number",
+    "type": "varchar"
+  },
+  {
+    "title": "inbound_manifest_remark",
+    "name": "inbound_manifest_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "incentive_amount",
+    "name": "incentive_amount",
+    "type": "big_integer"
+  },
+  {
+    "title": "industry_type_code",
+    "name": "industry_type_code",
+    "type": "varchar"
+  },
+  {
+    "title": "industry_type_name",
+    "name": "industry_type_name",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_delivery_courier_id",
+    "name": "initial_delivery_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_delivery_courier_name",
+    "name": "initial_delivery_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_delivery_vehicle",
+    "name": "initial_delivery_vehicle",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_pod_date_time",
+    "name": "initial_pod_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "initial_pod_remark",
+    "name": "initial_pod_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_pod_status_code",
+    "name": "initial_pod_status_code",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_pod_status_name",
+    "name": "initial_pod_status_name",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_pod_success_status",
+    "name": "initial_pod_success_status",
+    "type": "varchar"
+  },
+  {
+    "title": "initial_user_pod_created_by",
+    "name": "initial_user_pod_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_ccnc",
+    "name": "insurance_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "insurance_ccnc_decimal",
+    "name": "insurance_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "insurance_charge",
+    "name": "insurance_charge",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_combination_id",
+    "name": "insurance_combination_id",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_flag",
+    "name": "insurance_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_id",
+    "name": "insurance_id",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_model_name",
+    "name": "insurance_model_name",
+    "type": "varchar"
+  },
+  {
+    "title": "insurance_number",
+    "name": "insurance_number",
+    "type": "varchar"
+  },
+  {
+    "title": "invoice_date",
+    "name": "invoice_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "invoice_date_cod",
+    "name": "invoice_date_cod",
+    "type": "timestamp"
+  },
+  {
+    "title": "invoice_number",
+    "name": "invoice_number",
+    "type": "varchar"
+  },
+  {
+    "title": "invoice_number_cod",
+    "name": "invoice_number_cod",
+    "type": "varchar"
+  },
+  {
+    "title": "invoicing_method",
+    "name": "invoicing_method",
+    "type": "varchar"
+  },
+  {
+    "title": "invoicing_officer_id",
+    "name": "invoicing_officer_id",
+    "type": "varchar"
+  },
+  {
+    "title": "invoicing_officer_name",
+    "name": "invoicing_officer_name",
+    "type": "varchar"
+  },
+  {
+    "title": "is_cashless",
+    "name": "is_cashless",
+    "type": "varchar"
+  },
+  {
+    "title": "journal_batch_number",
+    "name": "journal_batch_number",
+    "type": "varchar"
+  },
+  {
+    "title": "last_destination_code_modified_by",
+    "name": "last_destination_code_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "last_destination_code_modified_date_and_time",
+    "name": "last_destination_code_modified_date_and_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "last_origin_code_modified_by",
+    "name": "last_origin_code_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "last_origin_code_modified_date_and_time",
+    "name": "last_origin_code_modified_date_and_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "last_service_type_modified_by",
+    "name": "last_service_type_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "last_service_type_modified_date_and_time",
+    "name": "last_service_type_modified_date_and_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "last_status_orion_connote_update",
+    "name": "last_status_orion_connote_update",
+    "type": "varchar"
+  },
+  {
+    "title": "last_updated_date_time_connote_update",
+    "name": "last_updated_date_time_connote_update",
+    "type": "timestamp"
+  },
+  {
+    "title": "last_weight_modified_by",
+    "name": "last_weight_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "last_weight_modified_date_and_time",
+    "name": "last_weight_modified_date_and_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "length",
+    "name": "length",
+    "type": "varchar"
+  },
+  {
+    "title": "local_parent_id",
+    "name": "local_parent_id",
+    "type": "varchar"
+  },
+  {
+    "title": "local_parent_name",
+    "name": "local_parent_name",
+    "type": "varchar"
+  },
+  {
+    "title": "management_fee_id",
+    "name": "management_fee_id",
+    "type": "varchar"
+  },
+  {
+    "title": "management_fee_name",
+    "name": "management_fee_name",
+    "type": "varchar"
+  },
+  {
+    "title": "master_bag_date_time",
+    "name": "master_bag_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "master_bag_no_mmbag",
+    "name": "master_bag_no_mmbag",
+    "type": "varchar"
+  },
+  {
+    "title": "messenger_id",
+    "name": "messenger_id",
+    "type": "varchar"
+  },
+  {
+    "title": "messenger_name",
+    "name": "messenger_name",
+    "type": "varchar"
+  },
+  {
+    "title": "na_principal",
+    "name": "na_principal",
+    "type": "varchar"
+  },
+  {
+    "title": "national_parent_id",
+    "name": "national_parent_id",
+    "type": "varchar"
+  },
+  {
+    "title": "national_parent_name",
+    "name": "national_parent_name",
+    "type": "varchar"
+  },
+  {
+    "title": "net_cod_amt_ccnc",
+    "name": "net_cod_amt_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "net_cod_amt_ccnc_decimal",
+    "name": "net_cod_amt_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "net_freight_charge_ccnc",
+    "name": "net_freight_charge_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "net_freight_charge_ccnc_decimal",
+    "name": "net_freight_charge_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "nota_tagihan_cod_paid_to_customer",
+    "name": "nota_tagihan_cod_paid_to_customer",
+    "type": "varchar"
+  },
+  {
+    "title": "npwp_address",
+    "name": "npwp_address",
+    "type": "varchar"
+  },
+  {
+    "title": "npwp_id",
+    "name": "npwp_id",
+    "type": "varchar"
+  },
+  {
+    "title": "npwp_name",
+    "name": "npwp_name",
+    "type": "varchar"
+  },
+  {
+    "title": "operational_amunt",
+    "name": "operational_amunt",
+    "type": "big_integer"
+  },
+  {
+    "title": "origin_branch_id",
+    "name": "origin_branch_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_city_name",
+    "name": "origin_city_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_city_name_bms",
+    "name": "origin_city_name_bms",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_destination_id",
+    "name": "origin_destination_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_district_name",
+    "name": "origin_district_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_entity_type",
+    "name": "origin_entity_type",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_id",
+    "name": "origin_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_managing_entity_id",
+    "name": "origin_managing_entity_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_managing_entity_name",
+    "name": "origin_managing_entity_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_managing_entity_parent_id",
+    "name": "origin_managing_entity_parent_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_managing_entity_parent_name",
+    "name": "origin_managing_entity_parent_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_name",
+    "name": "origin_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_province_name",
+    "name": "origin_province_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_rate_card_id",
+    "name": "origin_rate_card_id",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_rate_card_id_name",
+    "name": "origin_rate_card_id_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_sys_code",
+    "name": "origin_sys_code",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_urban_village_name",
+    "name": "origin_urban_village_name",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_zip_code_bms",
+    "name": "origin_zip_code_bms",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_zip_code_orion",
+    "name": "origin_zip_code_orion",
+    "type": "varchar"
+  },
+  {
+    "title": "origin_zone",
+    "name": "origin_zone",
+    "type": "varchar"
+  },
+  {
+    "title": "original_amount",
+    "name": "original_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "original_amount_number",
+    "name": "original_amount_number",
+    "type": "big_integer"
+  },
+  {
+    "title": "original_amount_per_kg",
+    "name": "original_amount_per_kg",
+    "type": "varchar"
+  },
+  {
+    "title": "original_insurance_admin",
+    "name": "original_insurance_admin",
+    "type": "varchar"
+  },
+  {
+    "title": "original_insurance_premi",
+    "name": "original_insurance_premi",
+    "type": "varchar"
+  },
+  {
+    "title": "other_charges",
+    "name": "other_charges",
+    "type": "varchar"
+  },
+  {
+    "title": "other_charges_number",
+    "name": "other_charges_number",
+    "type": "float"
+  },
+  {
+    "title": "outbound_manifest_cancelled_date_time",
+    "name": "outbound_manifest_cancelled_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "outbound_manifest_cancelled_reason",
+    "name": "outbound_manifest_cancelled_reason",
+    "type": "varchar"
+  },
+  {
+    "title": "outbound_manifest_date_time",
+    "name": "outbound_manifest_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "outbound_manifest_number",
+    "name": "outbound_manifest_number",
+    "type": "varchar"
+  },
+  {
+    "title": "outbound_manifest_remark",
+    "name": "outbound_manifest_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "outbound_manifest_status",
+    "name": "outbound_manifest_status",
+    "type": "varchar"
+  },
+  {
+    "title": "p_date",
+    "name": "p_date",
+    "type": "varchar"
+  },
+  {
+    "title": "packing",
+    "name": "packing",
+    "type": "varchar"
+  },
+  {
+    "title": "packing_fee_ccnc",
+    "name": "packing_fee_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "packing_fee_ccnc_decimal",
+    "name": "packing_fee_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "packing_flag",
+    "name": "packing_flag",
+    "type": "varchar"
+  },
+  {
+    "title": "packing_number",
+    "name": "packing_number",
+    "type": "float"
+  },
+  {
+    "title": "paid_amount",
+    "name": "paid_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "payment_method",
+    "name": "payment_method",
+    "type": "varchar"
+  },
+  {
+    "title": "payment_no_ccnc",
+    "name": "payment_no_ccnc",
+    "type": "varchar"
+  },
+  {
+    "title": "payment_trf_date_ccnc",
+    "name": "payment_trf_date_ccnc",
+    "type": "timestamp"
+  },
+  {
+    "title": "payment_type",
+    "name": "payment_type",
+    "type": "varchar"
+  },
+  {
+    "title": "payment_type_ccnc",
+    "name": "payment_type_ccnc",
+    "type": "varchar"
+  },
+  {
+    "title": "percent_cod_fee_ccnc",
+    "name": "percent_cod_fee_ccnc",
+    "type": "integer"
+  },
+  {
+    "title": "percent_cod_fee_ccnc_decimal",
+    "name": "percent_cod_fee_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "percent_disc_ccnc",
+    "name": "percent_disc_ccnc",
+    "type": "integer"
+  },
+  {
+    "title": "percent_disc_ccnc_decimal",
+    "name": "percent_disc_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "periode_transaksi_cod",
+    "name": "periode_transaksi_cod",
+    "type": "varchar"
+  },
+  {
+    "title": "persentase_cod_fee",
+    "name": "persentase_cod_fee",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_address_city",
+    "name": "pick_up_address_city",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_address_district",
+    "name": "pick_up_address_district",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_address_province",
+    "name": "pick_up_address_province",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_address_street",
+    "name": "pick_up_address_street",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_address_zip_code",
+    "name": "pick_up_address_zip_code",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_by_branch",
+    "name": "pick_up_by_branch",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_confirmed_date_time",
+    "name": "pick_up_confirmed_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_courier_id",
+    "name": "pick_up_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_courier_name",
+    "name": "pick_up_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_date_time",
+    "name": "pick_up_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_order_id",
+    "name": "pick_up_order_id",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_pic_name",
+    "name": "pick_up_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_pic_phone",
+    "name": "pick_up_pic_phone",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_request_approved_date_time",
+    "name": "pick_up_request_approved_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_request_cancelled_date_time",
+    "name": "pick_up_request_cancelled_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_request_cancelled_remark",
+    "name": "pick_up_request_cancelled_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_request_created_by",
+    "name": "pick_up_request_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_request_date_time",
+    "name": "pick_up_request_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_request_number",
+    "name": "pick_up_request_number",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_request_ready_date_time",
+    "name": "pick_up_request_ready_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_request_received_date_time",
+    "name": "pick_up_request_received_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "pick_up_special_instruction",
+    "name": "pick_up_special_instruction",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_status",
+    "name": "pick_up_status",
+    "type": "varchar"
+  },
+  {
+    "title": "pick_up_vehicle",
+    "name": "pick_up_vehicle",
+    "type": "varchar"
+  },
+  {
+    "title": "pod_status_code",
+    "name": "pod_status_code",
+    "type": "varchar"
+  },
+  {
+    "title": "pod_status_name",
+    "name": "pod_status_name",
+    "type": "varchar"
+  },
+  {
+    "title": "pod_success_status",
+    "name": "pod_success_status",
+    "type": "varchar"
+  },
+  {
+    "title": "posting_date",
+    "name": "posting_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "posting_status",
+    "name": "posting_status",
+    "type": "varchar"
+  },
+  {
+    "title": "pricing_combination_id",
+    "name": "pricing_combination_id",
+    "type": "varchar"
+  },
+  {
+    "title": "pricing_detail_combination_id",
+    "name": "pricing_detail_combination_id",
+    "type": "varchar"
+  },
+  {
+    "title": "pricing_model_name",
+    "name": "pricing_model_name",
+    "type": "varchar"
+  },
+  {
+    "title": "priicing_detail_combination_name",
+    "name": "priicing_detail_combination_name",
+    "type": "varchar"
+  },
+  {
+    "title": "proforma_invoice_approved_date_last_modified_by",
+    "name": "proforma_invoice_approved_date_last_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "proforma_invoice_approved_date_last_modified_date_time",
+    "name": "proforma_invoice_approved_date_last_modified_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "proforma_invoice_date_cod",
+    "name": "proforma_invoice_date_cod",
+    "type": "timestamp"
+  },
+  {
+    "title": "proforma_invoice_initial_date_last_modified_by",
+    "name": "proforma_invoice_initial_date_last_modified_by",
+    "type": "varchar"
+  },
+  {
+    "title": "proforma_invoice_initial_date_last_modified_date_time",
+    "name": "proforma_invoice_initial_date_last_modified_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "proforma_invoice_last_modified_by_cod",
+    "name": "proforma_invoice_last_modified_by_cod",
+    "type": "varchar"
+  },
+  {
+    "title": "proforma_invoice_number",
+    "name": "proforma_invoice_number",
+    "type": "varchar"
+  },
+  {
+    "title": "proforma_invoice_number_cod",
+    "name": "proforma_invoice_number_cod",
+    "type": "varchar"
+  },
+  {
+    "title": "publish_freight_charge_ccnc",
+    "name": "publish_freight_charge_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "publish_freight_charge_ccnc_decimal",
+    "name": "publish_freight_charge_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "quantity",
+    "name": "quantity",
+    "type": "varchar"
+  },
+  {
+    "title": "raise_last_update_date_time_connote_update",
+    "name": "raise_last_update_date_time_connote_update",
+    "type": "timestamp"
+  },
+  {
+    "title": "re_pick_up_courier_id",
+    "name": "re_pick_up_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "re_pick_up_courier_name",
+    "name": "re_pick_up_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "re_pick_up_date_time",
+    "name": "re_pick_up_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "ready_to_deliver_date",
+    "name": "ready_to_deliver_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "receiver_checker_connote_pic_name",
+    "name": "receiver_checker_connote_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "receiving_checking_connote_date_time",
+    "name": "receiving_checking_connote_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "receiving_checking_connote_no",
+    "name": "receiving_checking_connote_no",
+    "type": "varchar"
+  },
+  {
+    "title": "receiving_checking_connote_remark",
+    "name": "receiving_checking_connote_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "recod_d_dest_code",
+    "name": "recod_d_dest_code",
+    "type": "varchar"
+  },
+  {
+    "title": "recod_d_serv_code",
+    "name": "recod_d_serv_code",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_delivery_courier_id",
+    "name": "redelivery_delivery_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_delivery_courier_name",
+    "name": "redelivery_delivery_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_delivery_vehicle",
+    "name": "redelivery_delivery_vehicle",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_pod_date_time",
+    "name": "redelivery_pod_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "redelivery_pod_remark",
+    "name": "redelivery_pod_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_pod_status_code",
+    "name": "redelivery_pod_status_code",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_pod_status_name",
+    "name": "redelivery_pod_status_name",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_pod_success_status",
+    "name": "redelivery_pod_success_status",
+    "type": "varchar"
+  },
+  {
+    "title": "redelivery_user_pod_created_by",
+    "name": "redelivery_user_pod_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "return_charge_ccnc",
+    "name": "return_charge_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "return_charge_ccnc_decimal",
+    "name": "return_charge_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "revised_cancelled_journal_batch_number",
+    "name": "revised_cancelled_journal_batch_number",
+    "type": "varchar"
+  },
+  {
+    "title": "revised_cancelled_posting_date",
+    "name": "revised_cancelled_posting_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "revised_cancelled_posting_status",
+    "name": "revised_cancelled_posting_status",
+    "type": "varchar"
+  },
+  {
+    "title": "revised_cancelled_voucher_number",
+    "name": "revised_cancelled_voucher_number",
+    "type": "varchar"
+  },
+  {
+    "title": "revised_invoice_date",
+    "name": "revised_invoice_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "revised_invoice_number",
+    "name": "revised_invoice_number",
+    "type": "varchar"
+  },
+  {
+    "title": "route_code",
+    "name": "route_code",
+    "type": "varchar"
+  },
+  {
+    "title": "royalty_amount",
+    "name": "royalty_amount",
+    "type": "big_integer"
+  },
+  {
+    "title": "runsheet_created_date_time",
+    "name": "runsheet_created_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "runsheet_number",
+    "name": "runsheet_number",
+    "type": "varchar"
+  },
+  {
+    "title": "runsheet_remark",
+    "name": "runsheet_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "runsheet_status",
+    "name": "runsheet_status",
+    "type": "varchar"
+  },
+  {
+    "title": "service_code",
+    "name": "service_code",
+    "type": "varchar"
+  },
+  {
+    "title": "service_group",
+    "name": "service_group",
+    "type": "varchar"
+  },
+  {
+    "title": "service_type",
+    "name": "service_type",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_address_city",
+    "name": "shipper_address_city",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_address_district",
+    "name": "shipper_address_district",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_address_province",
+    "name": "shipper_address_province",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_address_street",
+    "name": "shipper_address_street",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_address_zip_code",
+    "name": "shipper_address_zip_code",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_name",
+    "name": "shipper_name",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_pic_name",
+    "name": "shipper_pic_name",
+    "type": "varchar"
+  },
+  {
+    "title": "shipper_pic_phone",
+    "name": "shipper_pic_phone",
+    "type": "varchar"
+  },
+  {
+    "title": "site_id",
+    "name": "site_id",
+    "type": "varchar"
+  },
+  {
+    "title": "site_name",
+    "name": "site_name",
+    "type": "varchar"
+  },
+  {
+    "title": "sla_date",
+    "name": "sla_date",
+    "type": "timestamp"
+  },
+  {
+    "title": "sla_days",
+    "name": "sla_days",
+    "type": "varchar"
+  },
+  {
+    "title": "smu_agent_id",
+    "name": "smu_agent_id",
+    "type": "varchar"
+  },
+  {
+    "title": "smu_approved_date_time",
+    "name": "smu_approved_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "smu_cancelled_date_time",
+    "name": "smu_cancelled_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "smu_confirmed_date_time",
+    "name": "smu_confirmed_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "smu_date_time",
+    "name": "smu_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "smu_no",
+    "name": "smu_no",
+    "type": "varchar"
+  },
+  {
+    "title": "smu_remark",
+    "name": "smu_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "smu_request_cancelled_remark",
+    "name": "smu_request_cancelled_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "smu_status",
+    "name": "smu_status",
+    "type": "varchar"
+  },
+  {
+    "title": "sorted_id",
+    "name": "sorted_id",
+    "type": "varchar"
+  },
+  {
+    "title": "sorter_name",
+    "name": "sorter_name",
+    "type": "varchar"
+  },
+  {
+    "title": "status_connote",
+    "name": "status_connote",
+    "type": "varchar"
+  },
+  {
+    "title": "sub_connote",
+    "name": "sub_connote",
+    "type": "varchar"
+  },
+  {
+    "title": "surat_muatan_type",
+    "name": "surat_muatan_type",
+    "type": "varchar"
+  },
+  {
+    "title": "surcharge",
+    "name": "surcharge",
+    "type": "varchar"
+  },
+  {
+    "title": "surcharge_ccnc",
+    "name": "surcharge_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "surcharge_ccnc_decimal",
+    "name": "surcharge_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "surcharge_number",
+    "name": "surcharge_number",
+    "type": "float"
+  },
+  {
+    "title": "sync_date_time_clickhouse",
+    "name": "sync_date_time_clickhouse",
+    "type": "timestamp"
+  },
+  {
+    "title": "synchronize_table_connote_data_filter_and_batching_connote",
+    "name": "synchronize_table_connote_data_filter_and_batching_connote",
+    "type": "varchar"
+  },
+  {
+    "title": "tanggal_pembayaran_cod",
+    "name": "tanggal_pembayaran_cod",
+    "type": "varchar"
+  },
+  {
+    "title": "tax_administrator_id",
+    "name": "tax_administrator_id",
+    "type": "varchar"
+  },
+  {
+    "title": "tax_administrator_name",
+    "name": "tax_administrator_name",
+    "type": "varchar"
+  },
+  {
+    "title": "term_of_payment",
+    "name": "term_of_payment",
+    "type": "varchar"
+  },
+  {
+    "title": "testing_invoice",
+    "name": "testing_invoice",
+    "type": "varchar"
+  },
+  {
+    "title": "total_actual_delivery_days",
+    "name": "total_actual_delivery_days",
+    "type": "varchar"
+  },
+  {
+    "title": "total_adjusted_insurance_amount",
+    "name": "total_adjusted_insurance_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "total_amount_after_discount_charges_dpp",
+    "name": "total_amount_after_discount_charges_dpp",
+    "type": "varchar"
+  },
+  {
+    "title": "total_packing_charges",
+    "name": "total_packing_charges",
+    "type": "varchar"
+  },
+  {
+    "title": "total_packing_charges_number",
+    "name": "total_packing_charges_number",
+    "type": "float"
+  },
+  {
+    "title": "total_paid_amount",
+    "name": "total_paid_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "tracking_number_id",
+    "name": "tracking_number_id",
+    "type": "varchar"
+  },
+  {
+    "title": "transit_city_code",
+    "name": "transit_city_code",
+    "type": "varchar"
+  },
+  {
+    "title": "transit_manifest_date_time",
+    "name": "transit_manifest_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "transit_manifest_number",
+    "name": "transit_manifest_number",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_delivery_courier_id",
+    "name": "undelivered_delivery_courier_id",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_delivery_courier_name",
+    "name": "undelivered_delivery_courier_name",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_delivery_vehicle",
+    "name": "undelivered_delivery_vehicle",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_pod_date_time",
+    "name": "undelivered_pod_date_time",
+    "type": "timestamp"
+  },
+  {
+    "title": "undelivered_pod_remark",
+    "name": "undelivered_pod_remark",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_pod_status_code",
+    "name": "undelivered_pod_status_code",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_pod_status_name",
+    "name": "undelivered_pod_status_name",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_pod_success_status",
+    "name": "undelivered_pod_success_status",
+    "type": "varchar"
+  },
+  {
+    "title": "undelivered_user_pod_created_by",
+    "name": "undelivered_user_pod_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_at",
+    "name": "updated_at",
+    "type": "timestamp"
+  },
+  {
+    "title": "updated_at_cod_fee",
+    "name": "updated_at_cod_fee",
+    "type": "timestamp"
+  },
+  {
+    "title": "updated_destination_code",
+    "name": "updated_destination_code",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_destination_code_yes_no",
+    "name": "updated_destination_code_yes_no",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_height",
+    "name": "updated_height",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_length",
+    "name": "updated_length",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_origin_code",
+    "name": "updated_origin_code",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_origin_code_yes_no",
+    "name": "updated_origin_code_yes_no",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_service_type",
+    "name": "updated_service_type",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_service_type_yes_no",
+    "name": "updated_service_type_yes_no",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_volumetric_weight_h_x_w_x_l",
+    "name": "updated_volumetric_weight_h_x_w_x_l",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_weight_kgs",
+    "name": "updated_weight_kgs",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_weight_yes_no",
+    "name": "updated_weight_yes_no",
+    "type": "varchar"
+  },
+  {
+    "title": "updated_width",
+    "name": "updated_width",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_connote_data_entry",
+    "name": "user_approval_connote_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_handover_inbound",
+    "name": "user_approval_handover_inbound",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_handover_outbound",
+    "name": "user_approval_handover_outbound",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_handover_runsheet_by",
+    "name": "user_approval_handover_runsheet_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_receiving_checking_connote",
+    "name": "user_approval_receiving_checking_connote",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approval_runsheet_by",
+    "name": "user_approval_runsheet_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_approved_transit_manifest",
+    "name": "user_approved_transit_manifest",
+    "type": "varchar"
+  },
+  {
+    "title": "user_entry_bag",
+    "name": "user_entry_bag",
+    "type": "varchar"
+  },
+  {
+    "title": "user_handover_inbound_cancelled_data_entry",
+    "name": "user_handover_inbound_cancelled_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "user_handover_inbound_data_entry",
+    "name": "user_handover_inbound_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "user_handover_outbound_data_entry",
+    "name": "user_handover_outbound_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "user_handover_runsheet_created_by",
+    "name": "user_handover_runsheet_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_inbound_manifest_data_entry",
+    "name": "user_inbound_manifest_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "user_outbound_manifest_cancelled_by",
+    "name": "user_outbound_manifest_cancelled_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_pick_up_confirmed_created_by",
+    "name": "user_pick_up_confirmed_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_pick_up_request_approved_by",
+    "name": "user_pick_up_request_approved_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_pick_up_request_cancelled_by",
+    "name": "user_pick_up_request_cancelled_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_pick_up_request_created_by",
+    "name": "user_pick_up_request_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_pick_up_request_received_by",
+    "name": "user_pick_up_request_received_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_receiving_checking_connote",
+    "name": "user_receiving_checking_connote",
+    "type": "varchar"
+  },
+  {
+    "title": "user_request_pick_up_ready_created_by",
+    "name": "user_request_pick_up_ready_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_runsheet_created_by",
+    "name": "user_runsheet_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_smu_approved_by",
+    "name": "user_smu_approved_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_smu_confirmed_created_by",
+    "name": "user_smu_confirmed_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_smu_created_by",
+    "name": "user_smu_created_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_smu_request_cancelled_by",
+    "name": "user_smu_request_cancelled_by",
+    "type": "varchar"
+  },
+  {
+    "title": "user_transit_manifest_data_entry",
+    "name": "user_transit_manifest_data_entry",
+    "type": "varchar"
+  },
+  {
+    "title": "vat1_ccnc",
+    "name": "vat1_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "vat1_ccnc_decimal",
+    "name": "vat1_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "vat1_net_freight_charge_ccnc",
+    "name": "vat1_net_freight_charge_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "vat1_net_freight_charge_ccnc_decimal",
+    "name": "vat1_net_freight_charge_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "vat1_rt_ccnc",
+    "name": "vat1_rt_ccnc",
+    "type": "big_integer"
+  },
+  {
+    "title": "vat1_rt_ccnc_decimal",
+    "name": "vat1_rt_ccnc_decimal",
+    "type": "decimal"
+  },
+  {
+    "title": "vat_amount",
+    "name": "vat_amount",
+    "type": "varchar"
+  },
+  {
+    "title": "vat_fee_insurance",
+    "name": "vat_fee_insurance",
+    "type": "varchar"
+  },
+  {
+    "title": "vat_freight",
+    "name": "vat_freight",
+    "type": "varchar"
+  },
+  {
+    "title": "volumetric_weight_h_x_w_x_l",
+    "name": "volumetric_weight_h_x_w_x_l",
+    "type": "varchar"
+  },
+  {
+    "title": "voucher_number",
+    "name": "voucher_number",
+    "type": "varchar"
+  },
+  {
+    "title": "weight_gram",
+    "name": "weight_gram",
+    "type": "varchar"
+  },
+  {
+    "title": "weight_kg",
+    "name": "weight_kg",
+    "type": "varchar"
+  },
+  {
+    "title": "width",
+    "name": "width",
+    "type": "varchar"
+  }
+]

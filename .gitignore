@@ -21,5 +21,15 @@ wheels/
 data/rejected/
 data/customers_1m.csv
 
+
+# Generated CSV reports
+/output/reports/
+
+
 # Backup files
 *.save
+*.backup
+
+# Airflow generated files
+airflow-lab/logs/
+airflow-lab/config/airflow.cfg
